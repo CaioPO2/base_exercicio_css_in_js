@@ -8,10 +8,10 @@ export const Vagas = styled.li`
   transition: all ease 0.3s;
   border-radius: 8px;
 
-    &:hover{
-      background-color: ${(props) => props.theme.corPrincipal};
-      color: ${(props) => props.theme.corSecundaria};
-    }
+  &:hover {
+    background-color: ${(props) => props.theme.corPrincipal};
+    color: ${(props) => props.theme.corSecundaria};
+  }
 `
 export const VagaTitulo = styled.h3`
   font-weight: bold;
@@ -31,11 +31,11 @@ export const VagaLink = styled.a`
   border-radius: 8px;
   text-align: center;
 
-    &:hover{
-      border-color: ${(props) => props.theme.corPrincipal};
-      background-color: ${(props) => props.theme.corSecundaria};
-      color: ${(props) => props.theme.corPrincipal};
-    }
+  &:hover {
+    border-color: ${(props) => props.theme.corPrincipal};
+    background-color: ${(props) => props.theme.corSecundaria};
+    color: ${(props) => props.theme.corPrincipal};
+  }
 
   @media (max-width: 768px) {
     display: block;

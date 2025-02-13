@@ -19,6 +19,11 @@ export const Form = styled.form`
     content: '';
     opacity: 0.7;
   }
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 24px 0;
+  }
 `
 
 export const FormContainer = styled.div`
@@ -29,4 +34,8 @@ export const FormContainer = styled.div`
 export const Title = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 `

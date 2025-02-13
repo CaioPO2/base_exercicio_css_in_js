@@ -6,4 +6,8 @@ export const Vagas = styled.ul`
   column-gap: 16px;
   row-gap: 16px;
   margin-top: 32px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `

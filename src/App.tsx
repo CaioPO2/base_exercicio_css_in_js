@@ -10,13 +10,13 @@ import colors from './Theme/color'
 function App() {
   return (
     <>
-    <ThemeProvider theme={colors}>
+      <ThemeProvider theme={colors}>
         <Header />
         <Hero />
         <div className="container">
           <ListaVagas />
         </div>
-    </ThemeProvider>
+      </ThemeProvider>
     </>
   )
 }
